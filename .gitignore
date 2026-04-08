@@ -1,0 +1,74 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pyc
+venv/
+.env
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.egg
+*.egg-info/
+.installed.cfg
+*.manifest
+*.spec
+
+# SQLite database
+*.sqlite3
+*.db
+
+# Logs
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# PEP 582 / pyflow / pdm / poetry / pipenv
+__pypackages__/
+poetry.lock
+poetry.toml
+Pipfile.lock
+pdm.lock
+pdm.toml
+.pdm-python
+.pdm-build/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Cython
+cython_debug/
+
+# Marimo / Cursor
+marimo/_static/
+marimo/_lsp/
+__marimo__/
+.cursorignore
+.cursorindexingignore
+
+# ── React / Node ──
+frontend/node_modules/
+frontend/build/
+npm-debug.log
+yarn-error.log
